@@ -1,0 +1,104 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 50px);
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(https://picsum.photos/1300);
+  background-size: cover;
+}
+.registerTitle {
+  font-size: 50px;
+}
+.registerForm {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.registerForm > label {
+  font-size: 20px;
+  margin: 10px 0;
+}
+.registerInput {
+  border: none;
+  padding: 10px;
+  background-color: rgb(32, 32, 32);
+  border-radius: 7px;
+  color: white;
+}
+.registerInput:focus{
+    background: rgb(45, 44, 44);
+    outline: none;
+    box-shadow: 0 7px 7px -5px rgb(110, 110, 110);
+}
+.formInput{
+  display: flex;
+  flex-direction: column;
+}
+::-ms-reveal {
+  filter: invert(100%);
+}
+.exist{
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: rgba(14, 136, 3, 0.41);
+    color: rgb(255, 255, 255);
+    padding: 4px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 5px 5px -5px rgb(122, 122, 122);
+}
+input:invalid ~ span{
+  background: rgba(245, 39, 39, 0.378);
+}
+.exist p {
+  padding: 0;
+  margin: 0;
+  display: none;
+  padding: 4px;
+}
+input:invalid[focused="true"] ~ span>p {
+  display: block;
+}
+
+.existInput{
+    border-radius: 7px 7px 0 0;
+}
+.registerButtonRegister {
+  border-radius: 7px;
+  background-color: teal;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.loginButtonRegister {
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  border-radius: 7px;
+  background-color: lightcoral;
+  padding: 5px 30px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    outline: none;
+  -webkit-text-fill-color: rgb(255, 255, 255);
+  -webkit-box-shadow: 0 0 0px 1000px rgb(33, 33, 33)inset;
+  transition: background-color 5000s ease-in-out 0s;
+}

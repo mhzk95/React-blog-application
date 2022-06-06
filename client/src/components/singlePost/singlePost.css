@@ -1,0 +1,199 @@
+html,
+body {
+  height: 100%;
+}
+.singlePost {
+  display: flex;
+  width: 100%;
+  padding-left: 5%;
+}
+
+.singlePostWrapper {
+  padding: 80px 0 20px 20px;
+  width: 80%;
+}
+.singlePostWrapper > input {
+  display: block;
+}
+
+.singlePostImg {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.singlePostTitle {
+  font-family: 'Lora', serif;
+  font-size: 28px;
+  text-align: left;
+  margin: 10px;
+}
+.singlePostUpdateTitle {
+  margin-top: 30px;
+  font-family: 'Lora', serif;
+  font-size: 30px;
+  padding: 20px;
+  border: none;
+  border-bottom: 1px solid rgb(183, 183, 183);
+  width: 70vw;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.singlePostUpdateTitle {
+  outline: none;
+}
+.singlePostUpdateContent {
+  font-size: 20px;
+  width: 70vw;
+  height: 50vh;
+  border: none;
+}
+.singlePostUpdateContent:focus {
+  outline: none;
+}
+
+.singlePostIcons {
+  float: right;
+  font-size: 16px;
+}
+.singlePostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.singlePostIcon:first-child {
+  color: teal;
+  cursor: pointer;
+}
+.singlePostIcon:last-child {
+  color: tomato;
+  cursor: pointer;
+}
+
+.singlePostInfo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: #b39656;
+  font-size: 0.7rem;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.singlePostDesc {
+  font-family: 'Varela Round', sans-serif;
+  color: #666;
+  font-size: 1.2rem;
+  min-height: 50vh;
+  white-space: pre-wrap;
+}
+.singlePostDesc::first-letter {
+  margin-left: 20px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.singlePostUpdateButton {
+  color: white;
+  background-color: teal;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+}
+.singlePostCancelButton {
+  cursor: pointer;
+  background-color: rgb(217, 101, 101);
+  color: white;
+  margin-left: 20px;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: none;
+}
+.categoryEditCancel {
+  width: 100%;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+}
+.categoryEditCancel:hover {
+  background-color: rgb(153, 151, 151);
+  color: white;
+}
+.dropdown {
+  position: relative;
+  display: inline;
+}
+.category {
+  position: relative;
+  cursor: pointer;
+  border: none;
+  user-select: none;
+  background-color: rgb(222, 218, 218);
+  padding: 5px 10px 5px;
+  border-bottom: 2px solid rgb(177, 176, 176);
+  z-index: 1;
+  min-width: 155px;
+}
+.category:hover {
+  border-bottom: 2px solid gray;
+  background-image: linear-gradient(
+    to top,
+    rgb(174, 172, 172) 30%,
+    rgb(222, 218, 218) 70%
+  );
+}
+.category:hover > .catsDropDownIcon {
+  bottom: 2px;
+}
+.items {
+  position: absolute;
+  top: calc(100% + 0.4rem);
+  left: 3px;
+  background-color: rgb(222, 222, 222);
+  box-shadow: 0 2px 5px 0 rgb(0, 0, 0, 0.4);
+  border-radius: 5px;
+  list-style: none;
+  padding: 10px 20px 0 10px;
+  width: 150px;
+  transform: translateY(-20px);
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0;
+}
+.visible {
+  pointer-events: auto;
+  opacity: 1;
+  transform: translateY(0px);
+  transition: opacity 150ms ease-in-out, transform 200ms ease-in-out;
+}
+.items > li > input {
+  margin-right: 10px;
+}
+.catsDropDownIcon {
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+  position: absolute;
+  bottom: 3px;
+}
+
+.linkIcon {
+  position: absolute;
+  right: 30px;
+}
+
+@media (max-width: 1000px) {
+  .singlePost {
+    padding: 0 25px;
+  }
+
+  .singlePostWrapper {
+    width: 100%;
+    padding-left: 0;
+  }
+  .singlePostUpdateTitle,
+  .singlePostUpdateContent {
+    width: 100%;
+  }
+}

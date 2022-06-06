@@ -1,0 +1,13 @@
+.singleComment{
+    position: relative;
+    margin:10px 0;
+    box-shadow: 0 2px 4px rgb(0,0,0,0.2);
+    border-radius: 5px;
+    background-color: rgb(235, 234, 234);
+    width: calc(100% + 32px) !important;
+}
+.commentMoreButton{
+    position: absolute;
+    right: 0;
+    top: 10px;
+}

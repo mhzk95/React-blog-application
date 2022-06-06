@@ -1,0 +1,82 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 50px);
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url(https://picsum.photos/1300);
+    background-size: cover;
+}
+.loginTitle{
+    font-size: 50px;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 300px;
+}
+
+
+.wrongCred{
+    background-color: rgba(14, 136, 3, 0.41);
+    color: rgb(255, 255, 255);
+    border-radius: 0 0 7px 7px;
+    padding: 5px 10px;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: default;
+    box-shadow: 0 5px 5px -5px rgb(138, 137, 137);
+    word-wrap: break-word;
+    
+}
+input:invalid[focused="true"] ~ .wrongCred{
+    background: rgba(245, 39, 39, 0.378);
+}
+.wrongCred > p{
+    padding: 0;
+    margin: 0;
+}
+
+.loginForm > label{
+    font-size: 20px;
+    margin:10px 0;
+}
+.wrongCredInput{
+    border-radius: 7px 7px 0 0 !important
+}
+.loginInput{
+    border:none;
+    padding:10px;
+    color:white;
+    background-color: rgb(43, 42, 42);
+    border-radius: 7px;
+}
+.loginInput:focus{
+    outline: none;
+    box-shadow: 0 10px 10px -5px rgb(96, 95, 95);
+}
+.loginButtonLogin{
+    border-radius:7px;
+    background-color: lightcoral;
+    padding:10px;
+    margin-top: 20px;
+    border:none;
+    color:white;
+    cursor: pointer;
+}
+.loginButtonLogin:disabled{
+    background-color: rgb(240, 195, 195);
+    cursor: not-allowed;
+}
+.registerButtonLogin{
+    position: absolute;
+    top:70px;
+    right:20px;
+    border-radius:7px;
+    background-color: teal;
+    padding:5px 25px;
+    border:none;
+    color:white;
+    cursor: pointer;
+}

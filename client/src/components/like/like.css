@@ -1,0 +1,43 @@
+.likeWrapper{
+    position: absolute;
+    right: 0;
+    padding:10px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255,0.5);
+    border-radius: 5px;
+    margin: 5px;
+    box-shadow: 0 2px 5px 0 rgb(0,0,0,0.3);
+}
+.numberOfLikes{
+    padding-left: 5px;
+    font-size: 0.8rem;
+}
+.pop{
+    animation: pop .3s forwards ease-in-out;
+    color: red;
+}
+.shrink{
+    animation: shrink .3s forwards ease-in-out;
+}
+
+@keyframes pop{
+    0% {transform: scale(0.9);}
+    70%{transform: scale(1.5);}
+    100% {transform: scale(1);}
+}
+@keyframes shrink {
+    0% {transform: scale(0.9)}
+    70%{transform: scale(1.4);}
+    100%{transform: scale(1);}
+}
+
+@media (max-width:800px){
+    .likeWrapper{
+        left: 100px;
+        right: auto;
+        padding: 5px 10px;
+        background-color: rgb(243, 241, 241);
+        box-shadow: none;
+        bottom: 0;
+    }
+}

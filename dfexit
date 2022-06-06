@@ -1,0 +1,152 @@
+[33mcommit d5e7b86538b5135da40aec27864b37799790cdd6[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mheroku/master[m[33m)[m
+Author: zakeer <zakeer0412@gmail.com>
+Date:   Mon Jun 6 02:41:14 2022 +0530
+
+    small ui fixes
+
+[33mcommit 07925efaa6d724d9147f3d6ebf3df7dbe161ab7c[m
+Author: zakeer <zakeer0412@gmail.com>
+Date:   Mon Jun 6 01:38:43 2022 +0530
+
+    added comment loading
+
+[33mcommit 26140a49d94f45129a55593c6c3116ef5dafe9ed[m
+Author: zakeer <zakeer0412@gmail.com>
+Date:   Mon Jun 6 00:49:39 2022 +0530
+
+    added image upload to cloudinary
+
+[33mcommit 42ef70aa2788a2fdbf64423433319a271653c81f[m
+Author: zakeer <zakeer0412@gmail.com>
+Date:   Fri Jun 3 23:13:20 2022 +0530
+
+    ui layout adjustments
+
+[33mcommit 954e052a3daebf7f8abb166012c77e311ae56551[m
+Author: zakeer <zakeer0412@gmail.com>
+Date:   Fri Jun 3 22:42:56 2022 +0530
+
+    added upload progress
+
+[33mcommit 8ed5b2919fb95d5bccf509195e06ff6dbbeaff60[m
+Merge: 45288d3 de61f2f
+Author: zakeer <zakeer0412@gmail.com>
+Date:   Fri Jun 3 22:38:10 2022 +0530
+
+    Merge branch 'master' of https://git.heroku.com/reactblog-sakeer
+
+[33mcommit 45288d32e8fc829370a45261426e510f71d01030[m
+Author: zakeer <zakeer0412@gmail.com>
+Date:   Fri Jun 3 22:36:50 2022 +0530
+
+    added upload progress
+
+[33mcommit 200fe95460f4ce2b690bbe2db9909f984222866e[m
+Author: zakeer <zakeer0412@gmail.com>
+Date:   Fri Jun 3 22:34:26 2022 +0530
+
+    added upload progress
+
+[33mcommit 2e18b68c3d04def016d2578246aa4e01c1bbd9f9[m
+Author: zakeer <zakeer0412@gmail.com>
+Date:   Fri Jun 3 22:21:25 2022 +0530
+
+    added upload progress
+
+[33mcommit e733c694bba8c539db239d1942dc363e280ea78a[m
+Author: zakeer <zakeer0412@gmail.com>
+Date:   Fri Jun 3 15:24:12 2022 +0530
+
+    small bug fixes in ui
+
+[33mcommit 57d45de7ae7b84301415d3501f56a14f5224799c[m[33m ([m[1;32mdev[m[33m)[m
+Author: zakeer <zakeer0412@gmail.com>
+Date:   Fri Jun 3 22:11:53 2022 +0530
+
+    added upload progress
+
+[33mcommit 79bfe99f30cbb6fb1edd8fea0c439192076c0a64[m
+Author: zakeer <zakeer0412@gmail.com>
+Date:   Fri Jun 3 20:13:52 2022 +0530
+
+    upload progress
+
+[33mcommit 42483667590b93b89be424ac28e507d7c1849ec0[m
+Author: zakeer <zakeer0412@gmail.com>
+Date:   Fri Jun 3 18:59:45 2022 +0530
+
+    ui changes
+
+[33mcommit de61f2f5fd7bb42e17f79540355092d3ce037fb6[m
+Merge: 7de5dfc ba9bdb4
+Author: zakeer <zakeer0412@gmail.com>
+Date:   Fri Jun 3 18:39:35 2022 +0530
+
+    Merge branch 'master' of https://git.heroku.com/reactblog-sakeer
+
+[33mcommit 7de5dfc3b504571be47832354cae67090cba6881[m
+Author: zakeer <zakeer0412@gmail.com>
+Date:   Fri Jun 3 16:57:03 2022 +0530
+
+    removed logs
+
+[33mcommit 9fef0bd4a1057c24628c680fde418b0c5fefeea6[m
+Author: zakeer <zakeer0412@gmail.com>
+Date:   Fri Jun 3 15:24:12 2022 +0530
+
+    small bug fixes in ui
+
+[33mcommit c6c5296a316a64953e663f1c3a9a464893b29c00[m
+Author: zakeer <zakeer0412@gmail.com>
+Date:   Fri Jun 3 18:37:12 2022 +0530
+
+    delete photo after upload
+
+[33mcommit ba9bdb40ea03b425a395915a753b4eb19b60231d[m
+Merge: 4c5853b a7679fe
+Author: zakeer <zakeer0412@gmail.com>
+Date:   Fri Jun 3 16:59:27 2022 +0530
+
+    Merge branch 'master' of https://git.heroku.com/reactblog-sakeer
+
+[33mcommit 4c5853b412f4d7a36675089a44dab99cb3a23c73[m
+Author: zakeer <zakeer0412@gmail.com>
+Date:   Fri Jun 3 16:57:03 2022 +0530
+
+    removed logs
+
+[33mcommit 4e7ec6e12d8e293ab69935195df077adab7088a0[m
+Author: zakeer <zakeer0412@gmail.com>
+Date:   Fri Jun 3 15:24:12 2022 +0530
+
+    small bug fixes in ui
+
+[33mcommit 2154ad984cea36ecdf9d43838bd632564f67c0d3[m
+Author: zakeer <zakeer0412@gmail.com>
+Date:   Fri Jun 3 16:38:38 2022 +0530
+
+    small changes in ui
+
+[33mcommit a7679fe548698f05d2dd3dd8707583b0e2aaa790[m
+Author: zakeer <zakeer0412@gmail.com>
+Date:   Fri Jun 3 15:24:12 2022 +0530
+
+    small bug fixes in ui
+
+[33mcommit 77f832c958f100604f1d3e68725a68e0a39480da[m
+Author: zakeer <zakeer0412@gmail.com>
+Date:   Fri Jun 3 14:45:25 2022 +0530
+
+    development mode
+
+[33mcommit c0a3807704a998b32cf84a1b7e76cf9e8687737f[m
+Author: zakeer <zakeer0412@gmail.com>
+Date:   Thu Jun 2 23:29:49 2022 +0530
+
+    changes in photo url
+
+[33mcommit 4d65e5a0f4f39c988d35e784e633dd0f1c56286d[m
+Author: zakeer <zakeer0412@gmail.com>
+Date:   Thu Jun 2 23:14:16 2022 +0530
+
+    my first commit
