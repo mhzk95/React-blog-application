@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # ReactBlog-application
 
 ## A fully responsive react blog application
