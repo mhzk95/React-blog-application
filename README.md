@@ -37,6 +37,3 @@ If you want to change the API URL to a local server, simply edit `api/client/con
 - Package Manager - NPM
 - Clone the repository and run `npm install` if you use npm as package manager or `yarn install` if you use yarn as package manager.
 - `npm start` to start the application.
-=======
-# React-blog-application
->>>>>>> f838947fe2f67fd55c56938ff5bf7775c4eed175
